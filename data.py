@@ -12,7 +12,6 @@ import numpy as np
 
 with open('spiral.csv') as csvfile:
 	readCSV = csv.reader(csvfile)
-	header = readCSV.next()
 	fig = plt.figure()
 	ax = plt.axes(projection='3d')
 	plt.title("Spiral.json Data Points")
